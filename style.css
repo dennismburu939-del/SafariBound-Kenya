@@ -1,0 +1,550 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    color: #222;
+}
+
+
+}header {
+    background-color: #173b2a;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;s
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #c49a45;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}nav {
+    background-color: #102b20;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c49a45;
+}
+
+.hero-content {
+    max-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}  
+}
+
+.welcome {
+    color: #c49a45;
+
+}  font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.hero h2 {.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f1e8;
+}
+    font-size: 55px;
+    color: #173b2a;
+    margin: 15px 0;
+}
+
+.hero p {
+    color: #444;
+    font-size: 19px;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.primary {
+    background-color: #173b2a;
+    color: white;
+}
+
+.secondary {
+    border: 2px solid #c49a45;
+    color: #173b2a;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}.adventures {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.section-title p {
+    color: #c49a45;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.section-title h2 {
+    font-size: 38px;
+    color: #173b2a;
+    margin: 10px 0;
+}
+
+.section-title span {
+    color: #666;
+    font-size: 17px;
+}
+
+.adventure-container {
+    max-width: 1100px;
+    margin: 50px auto 0;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.adventure-card {
+    flex: 1;
+    padding: 35px 25px;
+    border-radius: 10px;
+    background-color: #f5f1e8;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.adventure-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 45px;
+}
+
+.adventure-card h3 {
+    color: #173b2a;
+    font-size: 22px;
+}
+
+.adventure-card p {
+    color: #555;
+    font-size: 16px;
+}.why-us {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #173b2a;
+}
+
+.why-us .section-title h2 {
+    color: white;
+}
+
+.why-us .section-title span {
+    color: #e5e5e5;
+}
+
+.why-container {
+    max-width: 1100px;
+    margin: 50px auto 0;
+    display: flex;
+    gap: 25px;
+}
+
+.why-card {
+    flex: 1;
+    padding: 35px 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.why-card h3 {
+    color: #173b2a;
+    font-size: 21px;
+}
+
+.why-card p {
+    color: #555;
+    font-size: 16px;
+}.destinations {
+    padding: 80px 20px;
+    background-color: #f5f1e8;
+    text-align: center;
+}
+
+.destination-container {
+    max-width: 1100px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.destination-card {
+    width: 320px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-8px);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.destination-content {
+    padding: 25px;
+}
+
+.destination-content h3 {
+    color: #173b2a;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.destination-content p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.destination-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #173b2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.destination-btn:hover {
+    background-color: #c49a45;
+}.about-us {
+    padding: 90px 20px;
+    background-color: white;
+}
+
+.about-content {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-label {
+    color: #c49a45;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.about-text h2 {
+    color: #173b2a;
+    font-size: 40px;
+    margin: 10px 0 20px;
+}
+
+.about-text p {
+    color: #555;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.about-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 13px 22px;
+    background-color: #173b2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-btn:hover {
+    background-color: #c49a45;
+}
+
+.about-highlight {
+    flex: 1;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #f5f1e8;
+    border-radius: 12px;
+}
+
+.about-icon {
+    font-size: 55px;
+}
+
+.about-highlight h3 {
+    color: #173b2a;
+    font-size: 22px;
+}
+
+.about-highlight p {
+    color: #555;
+    line-height: 1.6;
+}footer {
+    background-color: #102b20;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    color: #c49a45;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer .copyright {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #cccccc;
+}.contact-us {
+    padding: 80px 20px;
+    background-color: #f5f1e8;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.contact-card {
+    width: 220px;
+    padding: 35px 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card h3 {
+    color: #173b2a;
+    font-size: 21px;
+}
+
+.contact-card p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-card a {
+    color: #c49a45;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    color: #173b2a;
+}/* Modern contact icons */
+
+.contact-card .icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: #f5f1e8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* WhatsApp */
+.contact-card:nth-child(2) .icon {
+    background-color: #25D366;
+}
+
+/* Facebook */
+.contact-card:nth-child(4) .icon {
+    background-color: #1877F2;
+}.contact-card .icon svg {
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+.whatsapp-icon {
+    background-color: #25D366 !important;
+}
+
+.facebook-icon {
+    background-color: #1877F2 !important;
+}/* ================================
+   MOBILE RESPONSIVE DESIGN
+   ================================ */
+
+@media (max-width: 768px) {
+
+    /* Navigation */
+    nav {
+        padding: 12px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+        font-size: 14px;
+    }
+
+    /* Logo */
+    header img {
+        width: 240px;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: 450px;
+        padding: 30px 15px;
+    }
+
+    .hero h2 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 80%;
+        max-width: 280px;
+        box-sizing: border-box;
+    }
+
+    /* Adventure cards */
+    .adventure-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .adventure-card {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    /* Why Us cards */
+    .why-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-card {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    /* Destinations */
+    .destination-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination-card {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    /* About Us */
+    .about-content {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .about-text,
+    .about-highlight {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about-text h2 {
+        font-size: 32px;
+    }
+
+    /* Contact */
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-card {
+        width: 90%;
+        max-width: 350px;
+        box-sizing: border-box;
+    }
+
+    /* Section headings */
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+}
